@@ -1,0 +1,47 @@
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+img, table {
+	width: 250px;
+	box-shadow: 2px 2px black;
+}
+
+table {
+	margin-top: 10px;
+}
+
+table, td {
+	padding-left: 5px;
+    font-family: Impact;
+	border: 3px solid red;
+	border-collapse: collapse;
+
+  }
+
+th {
+	font-family: Verdana;
+	background-color: pink;
+  }
+
+table td:first-child {
+	background-color: hotpink;
+	width: 15%;
+}
+
+table td:nth-child(2) {
+	width: 60%;
+}
+
+table td:last-child {
+	width: 25%;
+}
+
+table tr:nth-child(4) {
+	background-color: yellow;
+	font-weight: bold;
+	color: red;
+	text-shadow: 2px 2px black;

@@ -1,0 +1,52 @@
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+form {
+	background-color: #87CEEB;
+}
+
+fieldset {
+	border: 1px solid brown;
+	padding: 10px;
+  }
+
+fieldset legend {
+	font-family: Verdana, sans-serif;
+  }
+
+  body {
+	font-family: Calibri, sans-serif;
+  }
+
+  fieldset:nth-of-type(3) label img {
+	width: 50px;
+  }
+
+  fieldset label {
+	display: block;
+  }
+
+  input[type="submit"] {
+	margin: 25px;
+	padding: 10px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+	border: none;
+  }
+  
+  .volver {
+	margin: 25px;
+	padding: 10px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+	border: none;
+	text-decoration: none;
+	font-family: Arial, Impact, sans-serif;
+}
